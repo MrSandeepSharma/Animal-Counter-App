@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+body {
+  background: url(https://images.unsplash.com/photo-1592803883394-eeaa36f92a70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHpvb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  font-family: "Spinnaker", sans-serif;
+  color: #011017;
+  text-shadow: 0 0 3px white;
+  font-weight: bolder;
+}
+
+.counter-page {
+  margin: 70px auto;
+  padding: 30px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#count-el {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 180px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#increment-btn {
+  background: #011017;
+  color: white;
+}
+
+#prev-el {
+  font-size: 25px;
+  margin-top: 5px;
+}
